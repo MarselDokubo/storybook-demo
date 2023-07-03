@@ -4,6 +4,13 @@ Storybook is a frontend workshop for building UI components and pages in isolati
 
 This application is built using the React framework and is intended to help you understand and navigate the Storybook workshop.
 
+## 🚅 Task
+
+Task is the core component of our app. Each task displays slightly differently depending on exactly what state it’s in. We display a checked (or unchecked) checkbox, some information about the task, and a “pin” button, allowing us to move tasks up and down the list. Putting this together, we’ll need these props:
+
+title – a string describing the task
+state - which list is the task currently in, and is it checked off?
+
 ## 🚅 Quick start
 
 1.  **Create the application.**
